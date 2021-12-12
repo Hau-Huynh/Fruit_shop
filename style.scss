@@ -189,8 +189,12 @@ html{
   }
   label{
     font-size: 1.6rem;
-    color: $light-color;
+    color: $green;
     padding: 1.5rem 3rem 1.5rem 0;
+    i{
+    color: $green;
+
+    }
     &:hover{
       color: $green;
     }
@@ -732,7 +736,6 @@ html{
 
   .slider-wrapper{
     position: relative;
-    // gap: 1.4rem;
     .slick-prev{
       position: absolute;
       top: 50%;

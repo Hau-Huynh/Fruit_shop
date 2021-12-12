@@ -173,39 +173,40 @@ $('.slider-wrapper').slick({
   dots: true,
   responsive: [
     {
-      breakpoint: 1025,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: false,
-      }
-    },
-    {
       breakpoint: 1366,
       settings: {
         slidesToShow: 3,
         slidesToScroll: 1,
         infinite: true,
-        dots: false,
+      }
+    },
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true,
       }
     },
     {
       breakpoint: 600,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 1
-        
+        slidesToScroll: 1,
+        dots: false,
+        infinite: true,
       }
     },
     {
-      breakpoint: 450,
+      breakpoint: 480,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        dots: false,
         prevArrow: false,
         nextArrow: false,
+        dots: false,
+        infinite: true,
       }
     }
   ]
@@ -218,7 +219,6 @@ $('.information_container').slick({
   slidesToScroll: 1,
   prevArrow:`<button type='button' class='slick-prev pull-left'><i class="fas fa-arrow-left"></i></button>`,
   nextArrow: `<button type='button' class='slick-next pull-right'><i class="fas fa-arrow-right"></i></button>`,
-  arrows: true,
   responsive: [
     {
       breakpoint: 1366,
@@ -231,17 +231,17 @@ $('.information_container').slick({
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 3,
         slidesToScroll: 1,
         infinite: true,
+        dots: true
       }
     },
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
+        slidesToShow: 2,
+        slidesToScroll: 1
       }
     },
     {
@@ -251,11 +251,11 @@ $('.information_container').slick({
         slidesToScroll: 1,
         prevArrow: false,
         nextArrow: false,
-        arrows: false,
+        dots: false,
+        infinite: true,
       }
     }
   ]
-
 });
 
 $('.food_chefs').slick({

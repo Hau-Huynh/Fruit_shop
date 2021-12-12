@@ -221,8 +221,12 @@ html::-webkit-scrollbar-thumb {
 
 .sub-search_container .sub-search label {
   font-size: 1.6rem;
-  color: #779;
+  color: #03ad53;
   padding: 1.5rem 3rem 1.5rem 0;
+}
+
+.sub-search_container .sub-search label i {
+  color: #03ad53;
 }
 
 .sub-search_container .sub-search label:hover {
