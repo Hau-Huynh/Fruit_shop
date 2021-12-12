@@ -179,7 +179,7 @@ html::-webkit-scrollbar-thumb {
 .sub-search_container {
   position: fixed;
   top: 10rem;
-  left: -101%;
+  left: -150%;
   padding: 0 9%;
   width: 100%;
   border-radius: 5rem;
@@ -344,7 +344,7 @@ html::-webkit-scrollbar-thumb {
 .shopping-cart {
   position: fixed;
   top: 0;
-  right: -101%;
+  right: -150%;
   width: 40rem;
   height: calc(100vh - 7rem);
   background: #f6fbf6;
@@ -2410,7 +2410,8 @@ html::-webkit-scrollbar-thumb {
             flex-direction: column;
   }
   .content-container_2 .slide_text h1 {
-    margin-top: 4rem;
+    font-size: 3.5rem;
+    margin-top: 2.5rem;
   }
   .content-container_2 .slide_text .icon_slice {
     width: 100%;

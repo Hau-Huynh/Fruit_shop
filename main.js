@@ -170,8 +170,6 @@ $('.slider-wrapper').slick({
   slidesToScroll: 1,
   prevArrow:`<button type='button' class='slick-prev pull-left'><i class="fas fa-arrow-left"></i></button>`,
   nextArrow:`<button type='button' class='slick-next pull-right'><i class="fas fa-arrow-right"></i></button>`,
-  autoplay: true,
-  autoplaySpeed: 1000,
   dots: true,
   responsive: [
     {
@@ -197,6 +195,7 @@ $('.slider-wrapper').slick({
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1
+        
       }
     },
     {
@@ -205,20 +204,11 @@ $('.slider-wrapper').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: false,
-        arrows: false,
         prevArrow: false,
         nextArrow: false,
-        
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
-  //khi ở trên điện thoại người dùng sẽ có thể lướt qua lại được
-  // arrows: false,
-  //Ko cho người dùng lướt qua lướt lại
-  // draggable: false,
   
 });
 
@@ -228,8 +218,6 @@ $('.information_container').slick({
   slidesToScroll: 1,
   prevArrow:`<button type='button' class='slick-prev pull-left'><i class="fas fa-arrow-left"></i></button>`,
   nextArrow: `<button type='button' class='slick-next pull-right'><i class="fas fa-arrow-right"></i></button>`,
-  autoplay: true,
-  autoplaySpeed: 1000,
   arrows: true,
   responsive: [
     {
@@ -276,8 +264,6 @@ $('.food_chefs').slick({
   prevArrow:`<button type='button' class='slick-prev pull-left'><i class="fas fa-arrow-left"></i></button>`,
   nextArrow: `<button type='button' class='slick-next pull-right'><i class="fas fa-arrow-right"></i></button>`,
   infinite: true,
-  autoplay: true,
-  autoplaySpeed: 1000,
   responsive: [
     {
       breakpoint: 1366,
